@@ -1,13 +1,13 @@
 module.exports = {
     extends: ['airbnb', 'plugin:prettier/recommended'],
-    plugins: ['react','jsx-a11y', 'import','prettier'],
+    plugins: ['react', 'jsx-a11y', 'import', 'prettier', 'prettier/react'],
     rules: {
         'prettier/prettier': 'error',
         'react/jsx-filename-extension': 0,
-        "import/no-unresolved": ["error", { "ignore": ["^meteor/", "^/"] }],
-        "import/extensions": ["off", "never"]
+        'import/no-unresolved': ['error', { ignore: ['^meteor/', '^/'] }],
+        'import/extensions': ['off', 'never']
     },
     globals: {
-        document: 1,
+        document: 1
     }
 };
