@@ -4,7 +4,8 @@ module.exports = {
     rules: {
         'prettier/prettier': 'error',
         'react/jsx-filename-extension': 0,
-        "import/no-unresolved": ["error", { "ignore": ["^meteor/", "^/"] }]
+        "import/no-unresolved": ["error", { "ignore": ["^meteor/", "^/"] }],
+        "import/extensions": ["off", "never"]
     },
     globals: {
         document: 1,
